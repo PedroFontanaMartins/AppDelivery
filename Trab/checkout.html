@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles/style-Checkout.css">
+    <script src="java/Comidas.js" defer></script>
+</head>
+<body>
+    <h1>Checkout</h1>
+    <div id="checkoutItems">
+
+    </div>
+    <div>Total: R$ <span id="checkoutTotal">0.00</span></div>
+    
+    <h2>Escolha a forma de pagamento:</h2>
+    <form id="paymentForm">
+        <label>
+            <input type="radio" name="paymentMethod" value="pix" required> Pix
+        </label>
+        <label>
+            <input type="radio" name="paymentMethod" value="credit" required> Cartão de Crédito
+        </label>
+        <label>
+            <input type="radio" name="paymentMethod" value="debit" required> Cartão de Débito
+        </label>
+        <label>
+            <input type="radio" name="paymentMethod" value="cash" required> Dinheiro
+        </label>
+        <div>
+            <label>
+                <input type="radio" name="deliveryOption" value="now" required> Pagar Agora
+            </label>
+            <label>
+                <input type="radio" name="deliveryOption" value="delivery" required> Pagar na Entrega
+            </label>
+        </div>
+        <button type="submit">Confirmar Pagamento</button>
+    </form>
+    <script>
+        
+    </script>
+</body>
+</html>
