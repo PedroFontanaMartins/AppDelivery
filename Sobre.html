@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café da Unisinos</title>
+    <link rel="stylesheet" href="styles/style-Sobre.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Estilo para o iframe do mapa */
+        .mapa {
+            margin-top: 20px; /* Espaço acima do mapa */
+            margin-bottom: 20px; /* Espaço abaixo do mapa */
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="images/icon-images_anonymous-649d041d-6362-4e2c-a448-1307c034780d.webp" alt="Unisinos Logo">
+            <h1>Café da Unisinos</h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <ul class="menu">
+                    <li><a href="Home.html"><i class="fas fa-home"></i> Início</a></li>
+                    <li><a href="Comidas.html"><i class="fas fa-utensils"></i> Comidas</a></li>
+                    <li><a href="Pedidos.html"><i class="fas fa-shopping-cart"></i> Meus Pedidos</a></li>
+                    <li><a href="Dashboard.html"><i class="fas fa-chart-line"></i> Dashboard</a></li>
+                    <li><a href="Sobre.html"><i class="fas fa-info-circle"></i> Sobre nós</a></li>
+                    <li><a href="Voce.html"><i class="fas fa-user"></i> Você</a></li>
+                    <li><a href="#" id="cartButton"><i class="fas fa-shopping-cart"></i> Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sobre">
+            <div>
+                <h1>Sobre o Café da Unisinos:</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste dolorum expedita quae deleniti enim rerum assumenda corporis minus! Repellat fugit quas iusto expedita, delectus enim corrupti quidem beatae libero adipisci!</p>
+                <p class="localizados">Onde estamos localizados:</p>
+                <!-- Mapa de localização usando iframe -->
+                <iframe
+                    class="mapa"
+                    width="100%"
+                    height="600"
+                    frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13817.27148250148!2d-51.1753613!3d-30.0277372!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197785e750ad07%3A0xbe1612fcc325f36b!2sUnisinos!5e0!3m2!1spt-BR!2sbr!4v1720639604279!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Café da Unisinos. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
