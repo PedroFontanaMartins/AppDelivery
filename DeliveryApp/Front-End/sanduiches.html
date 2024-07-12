@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação do Café quente</title>
+    <link rel="stylesheet" href="styles/style.sanduiche.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/icon-images_anonymous-649d041d-6362-4e2c-a448-1307c034780d.webp" alt="Unisinos Logo">
+            <h1>Café da Unisinos</h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <ul class="menu">
+                    <li><a href="Home.html"><i class="fas fa-home"></i> Início</a></li>
+                    <li><a href="Comidas.html"><i class="fas fa-utensils"></i> Comidas</a></li>
+                    <li><a href="Pedidos.html"><i class="fas fa-shopping-cart"></i> Meus Pedidos</a></li>
+                    <li><a href="Dashboard.html"><i class="fas fa-chart-line"></i> Dashboard</a></li>
+                    <li><a href="Sobre.html"><i class="fas fa-info-circle"></i> Sobre nós</a></li>
+                    <li><a href="Voce.html"><i class="fas fa-user"></i> Você</a></li>
+                    <li><a href="#" id="cartButton"><i class="fas fa-shopping-cart"></i> Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+<div class="container">
+    <h1>Avaliação Café Quente:</h1>
+
+    <img src="images/sanduba.webp" alt="" width="300" style="border: 3px solid black;">
+    <form action="#" method="post">
+        <div class="rating">
+            <input type="radio" id="star5" name="rating" value="1" />
+            <label for="star1" title="1 estrela">&#9733;</label>
+
+
+            <input type="radio" id="star4" name="rating" value="2" />
+            <label for="star2" title="2 estrelas">&#9733;</label>
+
+            <input type="radio" id="star3" name="rating" value="3" />
+            <label for="star3" title="3 estrelas">&#9733;</label>
+
+            <input type="radio" id="star2" name="rating" value="4" />
+            <label for="star4" title="4 estrelas">&#9733;</label>
+            
+            <input type="radio" id="star1" name="rating" value="5" />
+            <label for="star5" title="5 estrelas">&#9733;</label>
+
+
+
+
+
+        </div>
+        <div class="comment">
+            <label for="comment">Comentário:</label>
+            <textarea id="comment" name="comment" rows="4" placeholder="Escreva seu comentário aqui..."></textarea>
+        </div>
+        <button type="submit">Enviar Avaliação</button>
+    </form>
+</div>
+</body>
+</html>
