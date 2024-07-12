@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Tv40O7ExbVzxvGq3anBTGe6puobIKtmdBj6m5D9DxlI=",
+  "Source": "ApiWebApp",
+  "BasePath": "_content/ApiWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
